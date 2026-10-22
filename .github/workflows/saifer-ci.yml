@@ -1,0 +1,21 @@
+name: Saifer Android CI
+
+on:
+  push:
+    branches: [saifer-browser]
+  pull_request:
+    branches: [saifer-browser]
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check branding documentation
+        run: |
+          test -f README.md
+          test -f docs/SAIFER_DESIGN.md
+          test -f app/src/main/res/values/strings.xml
+          grep -q 'Saifer Browser' app/src/main/res/values/strings.xml
+          echo "Saifer branding files are present."
