@@ -1,29 +1,18 @@
-# Saifer Browser
+# Saifer Browser — Via resources branch
 
-<div align="center">
-  <img src="assets/saifer-logo.png" alt="Saifer Browser — blue fox and globe emblem" width="180" />
-  <h3>Private by design. Fast by nature.</h3>
-  <p>A modern Android browser project based on Via Browser.</p>
-</div>
+This branch keeps Saifer branding notes and selected string resources in the Via localization/resources repository.
 
-Saifer Browser is a brand-customized Android browser built on the lightweight Via Browser WebView codebase. The goal is a polished, privacy-forward experience with modern media and reading tools.
+**Repository scope notice:** this repository is a localization mirror, not the complete Via Android application source. It currently does not contain the Gradle project, Android manifest, browser activity, or engine source required to compile an APK. The Saifer Android implementation is being maintained as a separate Android Studio project until the complete app source can be obtained and integrated lawfully.
 
-## Current foundation
-The upstream Via project already includes browser basics such as tabs, bookmarks, downloads, ad blocking, reader mode, page translation, resource sniffing, picture-in-picture, and customization. Actual behavior depends on Android System WebView and device capabilities.
+## Saifer brand direction
+- Canonical logo: the user's original blue fox and globe emblem with orange orbital ring.
+- Palette: midnight navy (#07182D), electric cyan (#00D9FF), vivid blue (#087BFF), and warm orange (#FF8A00).
+- Product direction: compact browser chrome, modern start page, privacy controls, reader tools, media playlist/downloads, screenshot and PDF export, and Bengali translation.
 
-## Saifer roadmap inspired by Quetta
-- **Brand identity:** Saifer name, original blue fox/globe logo, and a premium visual system.
-- **Media:** media detection/downloads, dedicated playback, playlists, background audio, picture-in-picture and playback speed where supported.
-- **Privacy:** clearer tracking/ad blocking controls, third-party cookie controls, HTTPS preference and Global Privacy Control where available.
-- **Reading & productivity:** reader mode, webpage capture, PDF export and translation workflows.
-- **Private storage:** an app-lock/biometric-protected local vault for selected data.
-- **Extensions:** research a feasible Android extension runtime; standard WebView alone does not provide Chrome/Edge extension compatibility.
-- **Quality:** accessibility, security checks, device testing and repeatable release builds.
+## Quetta-inspired feature roadmap
+The roadmap is not a claim of feature parity. Each capability needs real UI, behavior, permission handling, persistence and tests. Standard Android WebView does not supply Chrome/Edge extension runtime compatibility or an HLS/DASH muxer.
 
-**Important:** this list is a development roadmap, not a claim that every Quetta feature is implemented today. Each feature must be wired into the Android application and tested; no proprietary Quetta code or assets are included.
-
-## Build
-Open the upstream Android project in Android Studio and use its Gradle configuration. An APK should only be described as release-ready after successful CI compilation and device checks.
+See [Saifer design guide](docs/SAIFER_DESIGN.md) for the visual system and delivery standards.
 
 ## Attribution
-Saifer is based on the Via Browser project by [tuyafeng](https://github.com/tuyafeng/Via). Consult upstream license and notices before distributing builds.
+This branch is based on the Via localization/resources repository. Preserve upstream copyright and license notices when redistributing derived resources.
