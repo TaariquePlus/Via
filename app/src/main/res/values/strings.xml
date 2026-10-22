@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Via</string>
+    <string name="app_name">Saifer Browser</string>
     <string name="action_new_tab">New tab</string>
     <string name="action_open_in_new">Open in new tab</string>
     <string name="action_save_img">Save image</string>
@@ -1078,4 +1078,18 @@
     <string name="search_shortcut_duplicate">This shortcut is already in use</string>
     <string name="site_conf_exists">A site configuration for %1$s already exists.</string>
     <string name="disable_predictive_back_gesture">Disable predictive back gesture</string>
+    <string name="saifer_tagline">Private by design. Fast by nature.</string>
+    <string name="saifer_homepage_title">Welcome to Saifer</string>
+    <string name="saifer_homepage_subtitle">A calmer, cleaner way to explore the web.</string>
+    <string name="saifer_search_hint">Search or enter address</string>
+    <string name="saifer_shortcut_downloads">Downloads</string>
+    <string name="saifer_shortcut_reader">Reader mode</string>
+    <string name="saifer_shortcut_translate">Translate</string>
+    <string name="saifer_shortcut_privacy">Privacy guard</string>
+    <string name="saifer_feature_video">Video downloads & playlist</string>
+    <string name="saifer_feature_extensions">Browser extensions</string>
+    <string name="saifer_feature_data_vault">Private Data Vault</string>
+    <string name="saifer_feature_reader">Reader mode & PDF export</string>
+    <string name="saifer_feature_translation">Side-by-side translation</string>
+    <string name="saifer_feature_note">Some advanced features are being developed and will appear as they are ready.</string>
 </resources>
